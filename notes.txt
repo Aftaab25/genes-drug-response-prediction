@@ -1,0 +1,39 @@
+Idea 1:
+    - Loop over Cell-lines to see which grugs we have tested on that cell line based on the data available
+    - Can become dependent combos
+    - Draw/Display Plots based on the selected combination of drugs and cell lines
+
+Idea 2:
+    - Optimize Output by identifying the correct combination of cell_line, drug, conc, and time point
+    - Research : Also try out new combinations to see if they can result in better output
+
+Idea 3: Drug Sensitivity Prediction
+    - Predict the sensitivity (or response) of cell lines to a specific drug based on concentration and time points.
+    - Input Features: Drug concentration, time point, and gene expression levels.
+    - Target Variable: Measured response (e.g., cell viability or expression level).
+    STEPS:
+    Data Preprocessing: Extract concentration and time point information from column names.
+    Feature Engineering: Create a feature matrix (gene expression, drug concentration, and time points).
+    Model Training: Use regression models or neural networks to predict the response.
+    Model Evaluation: Evaluate using R², MSE, or RMSE.
+
+Idea 4: Dose-Response Relationship Analysis
+    - Analyze and predict the dose-response curve for drugs.
+    - Nonlinear Regression: Fit a nonlinear curve (such as a sigmoidal or Hill function) to the data.
+
+Idea 5: Time-Dependent Gene Expression Analysis
+    - Analyze how gene expression levels change over time with drug exposure.
+    - Time Series Models: Use models like ARIMA or LSTMs.
+
+Idea 6: Identification of Gene-Drug Associations
+    - Identify key genes that respond strongly to certain drug treatments.
+    - Feature Importance Analysis: Use a model like Random Forest and analyze feature importances.
+
+Idea 7: Clustering of Cell Lines Based on Drug Response
+    - Identify groups of cell lines that respond similarly to drug treatments.
+    - K-Means Clustering: Cluster cell lines based on response profiles.
+
+Idea 8: Differential Analysis of Gene Expression
+    - Identify genes that are significantly up- or down-regulated in response to drugs.
+    - t-Test or ANOVA: Use statistical tests to identify significant changes in gene expression.
+
